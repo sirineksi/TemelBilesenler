@@ -65,8 +65,8 @@ struct ProductView: View {
                 HStack {
                     VStack (alignment: .leading)  {
                         Text("Ürün Adı: \(item.ürünAdi)")
-                        Text("Ürün Adı: \(item.ürünAciklamasi)")
-                        Text("Ürün Adı: \(Int(item.ürünFiyati))")
+                        Text("Ürün Açıklaması: \(item.ürünAciklamasi)")
+                        Text("Ürün Fiyatı: \(Int(item.ürünFiyati))")
                         
                         
                     }
